@@ -8,6 +8,7 @@ import Auth from "../utils/auth";
 import { ADD_FRIEND } from '../utils/mutations';
 import ThoughtForm from '../components/ThoughtForm';
 
+
 const Profile = () => {
   const [addFriend] = useMutation(ADD_FRIEND);
 
